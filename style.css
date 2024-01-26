@@ -1,0 +1,110 @@
+img{
+    max-width: 100%;
+}
+body{
+    margin: 0;
+}
+header{
+    box-shadow: 0px 20px 20px rgba(206, 200, 200, 0.527);
+}
+.wrapper{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+
+nav{
+   width: 80%; 
+   float: left;
+}
+nav ul{
+   margin-top:30px;
+   padding: 0;
+   text-align: right;
+}
+nav ul li{
+    list-style-type:none;
+    display: inline-block;
+}
+nav ul li a{
+    font-size: 22px;
+    color: brown;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+nav ul li a:hover{
+    color: rgb(27, 7, 46);
+}
+
+.about-section{
+    text-align: center;
+}
+.about-section h1{
+    font-size: 80px;
+    color: rgb(129, 8, 8);
+    margin: 0;
+    
+}
+.about-section h1 span{
+    color: rgb(13, 13, 59);
+}
+.about-section p{
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 25px;
+    color:gray;
+}
+section img{
+    margin: auto;
+    display: block;
+    max-width: 500px;
+}
+.feature{
+    padding: 25px;
+}
+.feature-section{
+    padding-top: 30px;
+}
+.feature h2{
+    font-size: 50px;
+    color: black;
+    margin: 0;
+}
+.column{
+    width: 50%;
+    float: left;
+}
+.align-right{
+    text-align: right;
+}
+
+.blog-section{
+   padding: 100px 100px;
+}
+.col{
+  width: 33.33%;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.blog{
+  background-color: rgba(165, 42, 42, 0.418);
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.blog img{
+  width: 100%;
+}
+.blog h3{
+   font-size: 22px;
+   color: aliceblue;
+}
+.blog p{
+    font-size: 18px;
+}
